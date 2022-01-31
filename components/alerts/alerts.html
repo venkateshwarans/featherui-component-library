@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml, %3Csvg width='120' height='120' viewBox='0 0 60 72' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23c1f79a' d='M42.334 49.147a29.945 29.945 0 0 1-19.338-8.151c-8.014-7.365-8.378-18.076-8.533-22.649l-.022-.627a2.904 2.904 0 0 1 3.457-2.951c17.005 3.355 21.695 16.324 22.056 17.4a49.543 49.543 0 0 1 3.574 15.922 1 1 0 0 1-.967 1.052c-.029.001-.106.004-.227.004Z'/%3E%3Cpath fill='%2345C14E' d='M44.435 55.316c-11.645 0-17.375-6.974-17.652-7.354a1 1 0 0 1 .262-1.424 11.103 11.103 0 0 1 12.774-1.574c-1.465-9.078 1.877-13.568 2.031-13.77a.998.998 0 0 1 .75-.39.97.97 0 0 1 .78.325c8.944 9.771 8.793 16.532 7.908 19.691-.034.14-1.062 4.092-4.772 4.406-.711.062-1.405.09-2.08.09Z'/%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='M55.184 57.69S34.96 45.877 23.097 24.206m22.131 30.096c-11.93.46-17.628-6.88-17.628-6.88'/%3E%3Cpath d='M40.528 42.483c-.56-7.195 2.116-10.679 2.116-10.679 8.834 9.654 8.406 16.162 7.681 18.747m-13.311-3.129a30.15 30.15 0 0 1-13.341-7.162c-8.072-7.419-8.067-18.241-8.232-22.577a1.903 1.903 0 0 1 2.264-1.932C34.694 19.103 39.02 32.528 39.02 32.528'/%3E%3C/g%3E%3C/svg%3E%0A">
+    <title>Feather UI</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7b62ea7364.js" crossorigin="anonymous"></script>
+    <script src="/js/_header/header.js" type="text/javascript" defer></script>
+    <script src="/js/_footer/footer.js" type="text/javascript" defer></script>
+    <script src="/js/_sideNav/sideNav.js" type="text/javascript" defer></script>
+    <script src="/js/_topSideNav/topSideNav.js" type="text/javascript" defer></script>
+
+  </head>
+  <body>
+    <header-component></header-component>
+    <div class="wrapper">
+      <div class="component-title text-center">
+        <h1>Alerts</h1>
+      </div>
+      <top-side-nav-component></top-side-nav-component>
+
+      <side-nav-component></side-nav-component>
+      <main class="feather">
+        <div class="content-container flex flex-column flex-items-start">
+          <div class="alert alert-success">
+            <span><i class="fas fa-check"></i></span>
+            <p>
+              A simple primary alert—check it out!
+            </p>
+            <span class="close"><i class="fas fa-times-circle"></i></span>
+          </div>
+          <div class="embed-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520A%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
+              style="width: 594px; height: 255px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+          <div class="alert alert-secondary">
+            <span><i class="fas fa-thumbs-up"></i></span>
+            <p>
+              A simple secondary alert—check it out!
+            </p>
+            <span class="close"><i class="fas fa-times-circle"></i></span>
+          </div>
+          <div class="embed-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-thumbs-up%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cp%253E%250A%2520%2520%2520%2520A%2520simple%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              style="width: 594px; height: 255px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+          <div class="alert alert-info">
+            <span><i class="fas fa-exclamation-circle"></i></span>
+            <p>
+              A simple info alert—check it out!
+            </p>
+            <span class="close"><i class="fas fa-times-circle"></i></span>
+          </div>
+          <div class="embed-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cp%253E%250A%2520%2520%2520%2520A%2520simple%2520info%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              style="width: 563px; height: 255px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+          <div class="alert alert-danger">
+            <span><i class="fas fa-radiation-alt"></i></span>
+            <p>
+              A simple danger alert—check it out!
+            </p>
+            <span class="close"><i class="fas fa-times-circle"></i></span>
+          </div>
+          <div class="embed-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-radiation-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cp%253E%250A%2520%2520%2520%2520A%2520simple%2520danger%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              style="width: 563px; height: 255px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+          <div class="alert alert-warning">
+            <span><i class="fas fa-exclamation-triangle"></i></span>
+            <p>
+              A simple warning alert—check it out!
+            </p>
+            <span class="close"><i class="fas fa-times-circle"></i></span>
+          </div>
+          <div class="embed-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cp%253E%250A%2520%2520%2520%2520A%2520simple%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              style="width: 563px; height: 255px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer-component></footer-component>
+  </body>
+</html>
