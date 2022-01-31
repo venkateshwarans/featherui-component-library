@@ -1,12 +1,5 @@
 const footerTemplate = document.createElement('template');
-
-footerTemplate.innerHTML = `<footer>
-</footer>
-
-
-`;
-
-
+footerTemplate.innerHTML = `<footer></footer>`;
 class Footer extends HTMLElement {
   constructor() {
     super();
@@ -16,5 +9,4 @@ class Footer extends HTMLElement {
     this.innerHTML = footerTemplate.innerHTML;
   }
 }
-
 customElements.define('footer-component', Footer);

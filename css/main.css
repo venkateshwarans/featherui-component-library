@@ -22,12 +22,15 @@ body {
 header nav {
   margin-left: auto;
 }
+
 nav ul {
   gap: 2rem;
 }
+
 nav ul li {
   list-style: none;
 }
+
 nav ul li a {
   color: var(--navy-blue-200);
   outline: none;
@@ -49,10 +52,10 @@ nav ul li a:hover {
   grid-template-columns: 300px 1fr;
   grid-template-rows: auto 250px 1fr 1fr;
   grid-template-areas:
-  "title title"
-  "aside-top main"
-  "aside main"
-  "aside main";
+    "title title"
+    "aside-top main"
+    "aside main"
+    "aside main";
   grid-gap: 2rem;
   margin-top: 5rem;
 }
@@ -75,6 +78,7 @@ side-nav-component {
 main {
   grid-area: main;
 }
+
 .landing-title h1 {
   font-size: 2rem;
 }
@@ -103,6 +107,7 @@ main {
 .side-nav-title {
   color: var(--navy-blue-200);
 }
+
 .side-nav-item {
   display: flex;
   gap: 2em;
@@ -110,6 +115,7 @@ main {
   flex-grow: 1;
   align-items: center;
 }
+
 .side-nav-item.active {
   color: var(--green-300);
   border-radius: 4px;
@@ -119,6 +125,7 @@ main {
   padding-top: 4rem;
   padding-left: 4rem;
 }
+
 .embed-container iframe {
   aspect-ratio: 2/1;
   border: none;
