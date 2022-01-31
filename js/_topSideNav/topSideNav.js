@@ -7,13 +7,13 @@ TopSideNavTemplate.innerHTML = ` <aside class="feather">
   </div>
   <ul class="side-nav-items">
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/components/alerts/alerts.html">Usage</a>
+      <a href="/">Usage</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/components/avatars/avatars.html">Colors</a>
+      <a href="/">Colors</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/components/badge/badge.html">Typography</a>
+      <a href="/">Typography</a>
     </li>
   </ul>
 </nav>

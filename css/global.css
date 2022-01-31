@@ -56,7 +56,8 @@
   --shadow: 0px 3px 12px rgba(0,0,0,0.05);
   --shadow-lg: 0px 4px 16px rgba(0,0,0,0.07);
   --shadow-xl: 0px 5px 20px rgba(0,0,0,0.07);
-  font-size: 16px;
+  font-size: 12px;
+  --rounded: 50%;
 }
 * {
   transition: all 0.25s ease-in-out;

@@ -47,7 +47,7 @@ nav ul li a:hover {
 .wrapper {
   display: grid;
   grid-template-columns: 300px 1fr;
-  grid-template-rows: auto 350px 1fr 1fr;
+  grid-template-rows: auto 250px 1fr 1fr;
   grid-template-areas:
   "title title"
   "aside-top main"
@@ -74,6 +74,9 @@ side-nav-component {
 
 main {
   grid-area: main;
+}
+.landing-title h1 {
+  font-size: 2rem;
 }
 
 .landing-title span {

@@ -38,10 +38,22 @@
   align-items: flex-start;
 }
 
+.flex-items-end {
+  align-items: flex-end;
+}
+
 .flex-justify-center {
   justify-content: center;
 }
 
 .flex-justify-start {
   justify-content: flex-start;
+}
+
+.flex-gap-1 {
+  gap: 1rem;
+}
+
+.flex-gap-2 {
+  gap: 2rem;
 }
