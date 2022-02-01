@@ -1,5 +1,7 @@
 @import 'reset.css';
 @import 'global.css';
+@import 'paddings.css';
+@import 'margins.css';
 @import 'grids.css';
 @import 'flex.css';
 @import '/components/alerts/alerts.css';
@@ -109,11 +111,8 @@ main {
 }
 
 .side-nav-item {
-  display: flex;
-  gap: 2em;
   color: var(--navy-blue-200);
   flex-grow: 1;
-  align-items: center;
 }
 
 .side-nav-item.active {
