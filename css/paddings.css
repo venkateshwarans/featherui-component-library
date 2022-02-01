@@ -19,6 +19,11 @@
   padding: 2rem;
 }
 
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;

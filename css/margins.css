@@ -61,3 +61,17 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+
+.mt-40	{
+  margin-top: 10rem;
+}
+.mr-40	{
+  margin-right: 10rem;
+}
+.mb-40	{
+  margin-bottom: 10rem;
+}
+.ml-40	{
+  margin-left: 10rem;
+}
