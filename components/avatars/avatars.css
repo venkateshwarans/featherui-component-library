@@ -1,0 +1,45 @@
+.avatar.rounded {
+  border-radius: var(--rounded);
+}
+
+.avatar-2xl {
+  width: 12rem;
+  height: 12rem;
+  background: var(--green-100);
+  box-shadow: var(--shadow-xl);
+}
+
+.avatar-xl {
+  width: 10rem;
+  height: 10rem;
+  background: var(--green-100);
+  box-shadow: var(--shadow-xl);
+}
+
+.avatar-lg {
+  width: 8rem;
+  height: 8rem;
+  background: var(--green-100);
+  box-shadow: var(--shadow-xl);
+}
+
+.avatar-base {
+  width: 6rem;
+  height: 6rem;
+  background: var(--green-100);
+  box-shadow: var(--shadow-xl);
+}
+
+.avatar-sm {
+  width: 4rem;
+  height: 4rem;
+  background: var(--green-100);
+  box-shadow: var(--shadow-xl);
+}
+
+.avatar-xs {
+  width: 2rem;
+  height: 2rem;
+  background: var(--green-100);
+  box-shadow: var(--shadow-xl);
+}

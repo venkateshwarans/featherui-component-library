@@ -1,0 +1,143 @@
+@import 'reset.css';
+@import 'global.css';
+@import 'paddings.css';
+@import 'margins.css';
+@import 'grids.css';
+@import 'flex.css';
+@import '/components/alerts/alerts.css';
+@import '/components/buttons/buttons.css';
+@import '/components/avatars/avatars.css';
+
+body {
+  background-image: url(../assets/images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo {
+  color: var(--navy-blue-200);
+  margin-left: -1rem;
+  text-shadow: 0px 2px 8px rgb(0 0 0 / 15%);
+}
+
+header nav {
+  margin-left: auto;
+}
+
+nav ul {
+  gap: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: var(--navy-blue-200);
+  outline: none;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--navy-blue-100);
+}
+
+.landing-container {
+  gap: 1rem;
+  padding: 4rem;
+  height: calc(100vh - 8rem);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto 250px 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "aside-top main"
+    "aside main"
+    "aside main";
+  grid-gap: 2rem;
+  margin-top: 5rem;
+}
+
+.component-title {
+  font-size: 1.5rem;
+  grid-area: title;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+top-side-nav-component {
+  grid-area: aside-top;
+}
+
+side-nav-component {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
+
+.landing-title h1 {
+  font-size: 2rem;
+}
+
+.landing-title span {
+  color: var(--green-300);
+  text-shadow: 0px 2px 8px rgb(0 0 0 / 15%);
+}
+
+
+.feather {
+  background: rgb(9 196 61 / 20%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(45px);
+  border-radius: 1rem;
+  box-shadow: 0px 3px 12px rgb(197 249 219 / 25%);
+}
+
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  transition: 0.15s;
+}
+
+.side-nav-title {
+  color: var(--navy-blue-200);
+}
+
+.side-nav-item {
+  color: var(--navy-blue-200);
+  flex-grow: 1;
+}
+
+.side-nav-item.active {
+  color: var(--green-300);
+  border-radius: 4px;
+}
+
+.content-container {
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+.embed-container iframe {
+  aspect-ratio: 2/1;
+  border: none;
+  width: 90%;
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  margin-top: 3em;
+  /* background: linear-gradient(
+      170deg
+      , rgb(193, 247, 154, 0.4) 0%, rgb(223, 248, 235) 40%, rgb(193, 247, 154, 0.4) 100%); */
+}
