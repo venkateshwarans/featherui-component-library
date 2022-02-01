@@ -28,25 +28,20 @@
 
 .alert-success {
   background-color: var(--green-300);
-  color: #fff;
 }
 
 .alert-danger {
   background-color: var(--red);
-  color: #fff;
 }
 
 .alert-warning {
-  background-color: #ff9800;
-  color: #fff;
+  background-color: var(--yellow-200);
 }
 
 .alert-info {
   background-color: var(--orange);
-  color: #fff;
 }
 
 .alert-secondary {
   background-color: var(--dark-blue);
-  color: #fff;
 }
