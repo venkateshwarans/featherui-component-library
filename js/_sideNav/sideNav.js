@@ -13,10 +13,10 @@ sideNavTemplate.innerHTML = ` <aside class="feather">
       <a href="/components/avatars/avatars.html">Avatar</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/components/badge/badge.html">Badge</a>
+      <a href="/components/badges/badges.html">Badge</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/components/button/button.html">Button</a>
+      <a href="/components/buttons/buttons.html">Button</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
       <a href="/components/card/card.html">Card</a>

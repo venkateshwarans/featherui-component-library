@@ -57,7 +57,9 @@
   --shadow-lg: 0px 4px 16px rgba(0, 0, 0, 0.07);
   --shadow-xl: 0px 5px 20px rgba(0, 0, 0, 0.07);
   font-size: 12px;
+  --square: 0%;
   --rounded: 50%;
+  --pill: 3rem;
 }
 
 * {
@@ -223,3 +225,33 @@ a {
 
 
 /* Box */
+.square {
+  border-radius: 0%;
+}
+
+
+/* Backgrounds */
+
+.bg-primary {
+  background-color: var(--indigo);
+}
+
+.bg-green {
+  background-color: var(--green-300);
+}
+
+.bg-red {
+  background-color: var(--danger);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-gray {
+  background-color: var(--gray-600);
+}
