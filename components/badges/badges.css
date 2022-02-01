@@ -16,12 +16,12 @@
 }
 
 .badge.badge-left-bottom {
-  left: 1em;
+  left: 0;
   bottom: 0;
 }
 
 .badge.badge-right-bottom {
-  right: 1em;
+  right: 0;
   bottom: 0;
 }
 
