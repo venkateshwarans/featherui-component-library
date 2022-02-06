@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/prism.css">
   <script src="https://kit.fontawesome.com/7b62ea7364.js" crossorigin="anonymous"></script>
   <script src="/js/_header/header.js" type="text/javascript" defer></script>
   <script src="/js/_footer/footer.js" type="text/javascript" defer></script>
@@ -30,11 +31,12 @@
     <top-side-nav-component></top-side-nav-component>
     <side-nav-component></side-nav-component>
     <main class="feather">
-      <div class="content-container">
+      <section>
+        <div class="section-title">
+          <h3>Badge positions</h3>
+        </div>
 
-        <h3>Badge positions</h3>
-
-        <div class="flex flex-row flex-items-end flex-gap-2 flex-wrap mt-8">
+        <div class="section-content mt-8 flex flex-row flex-items-end flex-gap-2 flex-wrap">
           <div class="avatar avatar-2xl rounded position-relative">
             <img src="/assets/svgs/woman.svg" alt="avatar">
             <span class="badge badge-left-bottom badge-rounded position-absolute bg-red shadow"></span>
@@ -53,19 +55,34 @@
           </div>
         </div>
 
-        <div class="embed-container">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=11px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-2xl%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-left-bottom%2520badge-rounded%2520position-absolute%2520bg-red%2520shadow%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-right-bottom%2520bg-green%2520badge-rounded%2520position-absolute%2520shadow%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fninja.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-left-top%2520bg-orange%2520badge-rounded%2520position-absolute%2520shadow%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-base%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman-astronaut.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-right-top%2520bg-gray%2520badge-rounded%2520position-absolute%2520shadow%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-            style="width: 848px; height: 394px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
+      </section>
+      <div class="snippet-wrapper">
+        <script type="text/plain" class="language-html">
+            <div class="avatar avatar-2xl rounded position-relative">
+              <img src="/assets/svgs/woman.svg" alt="avatar">
+              <span class="badge badge-left-bottom badge-rounded position-absolute bg-red shadow"></span>
+            </div>
+            <div class="avatar avatar-xl rounded position-relative">
+              <img src="/assets/svgs/man.svg" alt="avatar">
+              <span class="badge badge-right-bottom bg-green badge-rounded position-absolute shadow"></span>
+            </div>
+            <div class="avatar avatar-lg rounded position-relative">
+              <img src="/assets/svgs/ninja.svg" alt="avatar">
+              <span class="badge badge-left-top bg-orange badge-rounded position-absolute shadow"></span>
+            </div>
+            <div class="avatar avatar-base rounded position-relative">
+              <img src="/assets/svgs/woman-astronaut.svg" alt="avatar">
+              <span class="badge badge-right-top bg-gray badge-rounded position-absolute shadow"></span>
+            </div>
+        </script>
+      </div>
+
+
+      <section>
+        <div class="section-title">
+          <h3>Badge sizes</h3>
         </div>
-
-
-
-        <h3>Badge sizes</h3>
-
-        <div class="flex flex-row flex-items-end flex-gap-2 flex-wrap mt-8">
+        <div class="section-content flex flex-row flex-items-end flex-gap-2 flex-wrap mt-8">
           <div class="avatar avatar-2xl rounded position-relative">
             <img src="/assets/svgs/woman.svg" alt="avatar">
             <span class="badge badge-lg badge-right-top badge-rounded position-absolute bg-green"></span>
@@ -83,43 +100,83 @@
             <span class="badge badge-xs badge-right-top bg-green badge-rounded position-absolute"></span>
           </div>
         </div>
+      </section>
 
-        <div class="embed-container">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=11px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-2xl%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-lg%2520badge-right-top%2520badge-rounded%2520position-absolute%2520bg-green%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-right-top%2520bg-green%2520badge-rounded%2520position-absolute%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fninja.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-sm%2520badge-right-top%2520bg-green%2520badge-rounded%2520position-absolute%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-base%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman-astronaut.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-xs%2520badge-right-top%2520bg-green%2520badge-rounded%2520position-absolute%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-            style="width: 839px; height: 394px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
+      <div class="snippet-wrapper">
+        <script type="text/plain" class="language-html">
+            <div class="avatar avatar-2xl rounded position-relative">
+              <img src="/assets/svgs/woman.svg" alt="avatar">
+              <span class="badge badge-lg badge-right-top badge-rounded position-absolute bg-green"></span>
+            </div>
+            <div class="avatar avatar-xl rounded position-relative">
+              <img src="/assets/svgs/man.svg" alt="avatar">
+              <span class="badge badge-right-top bg-green badge-rounded position-absolute"></span>
+            </div>
+            <div class="avatar avatar-lg rounded position-relative">
+              <img src="/assets/svgs/ninja.svg" alt="avatar">
+              <span class="badge badge-sm badge-right-top bg-green badge-rounded position-absolute"></span>
+            </div>
+            <div class="avatar avatar-base rounded position-relative">
+              <img src="/assets/svgs/woman-astronaut.svg" alt="avatar">
+              <span class="badge badge-xs badge-right-top bg-green badge-rounded position-absolute"></span>
+            </div>
+        </script>
+      </div>
+
+
+
+      <section>
+        <div class="section-title">
+          <h3>Badge with text</h3>
         </div>
-
-
-        <h3>Badge with text</h3>
-
-        <div class="flex flex-row flex-items-end flex-gap-2 flex-wrap mt-8">
+        <div class="section-content flex flex-row flex-items-end flex-gap-2 flex-wrap mt-8">
           <div class="avatar avatar-2xl rounded position-relative">
             <img src="/assets/svgs/woman.svg" alt="avatar">
-            <span class="badge badge badge-right-top badge-rounded position-absolute bg-red flex flex-items-center flex-justify-center badge-text">3</span>
+            <span
+              class="badge badge badge-right-top badge-rounded position-absolute bg-red flex flex-items-center flex-justify-center badge-text">3</span>
           </div>
           <div class="avatar avatar-xl rounded position-relative">
             <img src="/assets/svgs/man.svg" alt="avatar">
-            <span class="badge badge-right-top bg-green badge-rounded position-absolute flex flex-items-center flex-justify-center badge-text">10</span>
+            <span
+              class="badge badge-right-top bg-green badge-rounded position-absolute flex flex-items-center flex-justify-center badge-text">10</span>
           </div>
           <div class="avatar avatar-lg rounded position-relative">
             <img src="/assets/svgs/ninja.svg" alt="avatar">
-            <span class="badge badge-lg badge-right-top bg-green badge-rounded position-absolute flex flex-items-center flex-justify-center badge-text">100+</span>
+            <span
+              class="badge badge-lg badge-right-top bg-green badge-rounded position-absolute flex flex-items-center flex-justify-center badge-text">100+</span>
           </div>
         </div>
+      </section>
 
-        <div class="embed-container">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=11px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-2xl%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge%2520badge-right-top%2520badge-rounded%2520position-absolute%2520bg-red%2520flex%2520flex-items-center%2520flex-justify-center%2520badge-text%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-right-top%2520bg-green%2520badge-rounded%2520position-absolute%2520flex%2520flex-items-center%2520flex-justify-center%2520badge-text%2522%253E10%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520rounded%2520position-relative%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fninja.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-lg%2520badge-right-top%2520bg-green%2520badge-rounded%2520position-absolute%2520flex%2520flex-items-center%2520flex-justify-center%2520badge-text%2522%253E100%252B%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-            style="width: 1024px; height: 375px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
+      <div class="snippet-wrapper">
+        <script type="text/plain" class="language-html">
+          <div class="avatar avatar-2xl rounded position-relative">
+            <img src="/assets/svgs/woman.svg" alt="avatar">
+            <span
+              class="badge badge badge-right-top badge-rounded
+              position-absolute bg-red flex flex-items-center
+              flex-justify-center badge-text">3</span>
+          </div>
+          <div class="avatar avatar-xl rounded position-relative">
+            <img src="/assets/svgs/man.svg" alt="avatar">
+            <span
+              class="badge badge-right-top bg-green badge-rounded
+              position-absolute flex flex-items-center
+              flex-justify-center badge-text">10</span>
+          </div>
+          <div class="avatar avatar-lg rounded position-relative">
+            <img src="/assets/svgs/ninja.svg" alt="avatar">
+            <span
+              class="badge badge-lg badge-right-top bg-green
+              badge-rounded position-absolute flex flex-items-center
+              flex-justify-center badge-text">100+</span>
+          </div>
+        </script>
+      </div>
 
     </main>
   </div>
   <footer-component></footer-component>
+  <script src="/js/prism.js" type="text/javascript" defer></script>
 </body>
 </html>

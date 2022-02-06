@@ -1,0 +1,84 @@
+.card {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow);
+  max-width: 37.5rem;
+}
+
+.card.card-horizontal {
+  max-width: none;
+}
+
+.card:hover{
+  box-shadow: var(--shadow-xl);
+  transform: scale(1.010);
+}
+
+.card.vertical .card-image {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-horizontal .card-image {
+  max-width: auto;
+}
+
+.card-actions {
+  margin-left: auto;
+}
+
+.card-actions i {
+  color: var(--green-400);
+}
+
+.card-actions i:hover {
+  color: var(--green-500);
+}
+
+.card-with-raised-image {
+  margin-top: 4rem;
+}
+
+.card .badge {
+  width: fit-content;
+  height: fit-content;
+}
+
+.card .badge-right-top {
+  top: 2rem;
+  right: 2rem;
+  border-radius: 0.5rem;
+}
+
+.card .badge-left-top {
+  top: 2rem;
+}
+
+
+.card.card-faded {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.card.card-faded:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+
+.card-overlay .card-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    180deg
+    ,#00000057 0,rgba(0,0,0,.338) 3.5%,rgba(0,0,0,.324) 7%,rgba(0,0,0,.306) 10.35%,rgba(0,0,0,.285) 13.85%,rgba(0,0,0,.262) 17.35%,rgba(0,0,0,.237) 20.85%,rgba(0,0,0,.213) 24.35%,rgba(0,0,0,.188) 27.85%,rgba(0,0,0,.165) 31.35%,rgba(0,0,0,.144) 34.85%,rgba(0,0,0,.126) 38.35%,rgba(0,0,0,.112) 41.85%,rgba(0,0,0,.103) 45.35%,#0000001a 48.85%,rgba(0,0,0,.103) 52.35%,rgba(0,0,0,.112) 55.85%,rgba(0,0,0,.126) 59.35%,rgba(0,0,0,.144) 62.85%,rgba(0,0,0,.165) 66.35%,rgba(0,0,0,.188) 69.85%,rgba(0,0,0,.213) 73.35%,rgba(0,0,0,.237) 76.85%,rgba(0,0,0,.262) 80.35%,rgba(0,0,0,.285) 83.85%,rgba(0,0,0,.306) 87.35%,rgba(0,0,0,.324) 90.85%,rgba(0,0,0,.338) 94.35%,rgba(0,0,0,.347) 97.85%,#00000059);
+}

@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/prism.css">
   <script src="https://kit.fontawesome.com/7b62ea7364.js" crossorigin="anonymous"></script>
   <script src="/js/_header/header.js" type="text/javascript" defer></script>
   <script src="/js/_footer/footer.js" type="text/javascript" defer></script>
@@ -30,8 +31,12 @@
     <top-side-nav-component></top-side-nav-component>
     <side-nav-component></side-nav-component>
     <main class="feather">
-      <div class="content-container">
-        <div class="flex flex-row flex-items-end flex-gap-1 flex-wrap">
+
+      <section>
+        <div class="section-title">
+          <h2>Avatar Sizes</h2>
+        </div>
+        <div class="section-content flex flex-row flex-items-end flex-gap-1 flex-wrap">
           <div class="avatar avatar-2xl">
             <img src="/assets/svgs/woman.svg" alt="avatar">
           </div>
@@ -51,18 +56,37 @@
             <img src="/assets/svgs/woman-with-headscarf.svg" alt="avatar">
           </div>
         </div>
+      </section>
 
-        <div class="embed-container">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-2xl%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fninja.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-base%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman-astronaut.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Ffirefighter.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman-with-headscarf.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E"
-            style="width: 562px; height: 455px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
+      <div class="snippet-wrapper">
+        <script type="text/plain" class="language-html">
+            <div class="avatar avatar-2xl">
+              <img src="/assets/svgs/woman.svg" alt="avatar">
+            </div>
+            <div class="avatar avatar-xl">
+              <img src="/assets/svgs/man.svg" alt="avatar">
+            </div>
+            <div class="avatar avatar-lg">
+              <img src="/assets/svgs/ninja.svg" alt="avatar">
+            </div>
+            <div class="avatar avatar-base">
+              <img src="/assets/svgs/woman-astronaut.svg" alt="avatar">
+            </div>
+            <div class="avatar avatar-sm">
+              <img src="/assets/svgs/firefighter.svg" alt="avatar">
+            </div>
+            <div class="avatar avatar-xs">
+              <img src="/assets/svgs/woman-with-headscarf.svg" alt="avatar">
+            </div>
+        </script>
       </div>
 
-      <div class="content-container flex flex-row flex-items-end flex-gap-1 flex-wrap">
-        <div class="flex flex-row flex-items-end flex-gap-1 flex-wrap">
+
+      <section>
+        <div class="section-title">
+          <h2>Rounded Avatars</h2>
+        </div>
+        <div class="section-content mt-8 flex flex-row flex-items-end flex-gap-1 flex-wrap">
           <div class="avatar avatar-2xl rounded">
             <img src="/assets/svgs/woman.svg" alt="avatar">
           </div>
@@ -82,16 +106,34 @@
             <img src="/assets/svgs/woman-with-headscarf.svg" alt="avatar">
           </div>
         </div>
-        <div class="embed-container">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28195%2C171%2C171%2C0%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-2xl%2520rounded%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520rounded%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fman.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2520rounded%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fninja.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-base%2520rounded%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman-astronaut.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2520rounded%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Ffirefighter.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2520rounded%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fsvgs%252Fwoman-with-headscarf.svg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E"
-            style="width: 578px; height: 455px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </div>
+      </section>
+
+      <div class="snippet-wrapper">
+        <script type="text/plain" class="language-html">
+          <div class="avatar avatar-2xl rounded">
+            <img src="/assets/svgs/woman.svg" alt="avatar">
+          </div>
+          <div class="avatar avatar-xl rounded">
+            <img src="/assets/svgs/man.svg" alt="avatar">
+          </div>
+          <div class="avatar avatar-lg rounded">
+            <img src="/assets/svgs/ninja.svg" alt="avatar">
+          </div>
+          <div class="avatar avatar-base rounded">
+            <img src="/assets/svgs/woman-astronaut.svg" alt="avatar">
+          </div>
+          <div class="avatar avatar-sm rounded">
+            <img src="/assets/svgs/firefighter.svg" alt="avatar">
+          </div>
+          <div class="avatar avatar-xs rounded">
+            <img src="/assets/svgs/woman-with-headscarf.svg" alt="avatar">
+          </div>
+        </script>
       </div>
+
     </main>
   </div>
   <footer-component></footer-component>
+  <script src="/js/prism.js" type="text/javascript" defer></script>
 </body>
 </html>

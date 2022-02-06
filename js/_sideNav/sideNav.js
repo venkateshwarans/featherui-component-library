@@ -19,13 +19,13 @@ sideNavTemplate.innerHTML = ` <aside class="feather">
       <a href="/components/buttons/buttons.html">Button</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/components/card/card.html">Card</a>
+      <a href="/components/cards/cards.html">Card</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/components/image/image.html">Image</a>
+      <a href="/components/images/images.html">Image</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/components/form/form.html">Form</a>
+      <a href="/components/forms/forms.html">Form</a>
     </li>
   </ul>
 </nav>
