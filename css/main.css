@@ -14,6 +14,7 @@
 @import '/components/cards/cards.css';
 @import '/components/images/images.css';
 @import '/components/forms/forms.css';
+@import '/components/typography/typography.css';
 
 body {
   background: linear-gradient(170deg, rgb(193, 247, 154, 0.4) 0%, rgb(223, 248, 235) 40%, rgb(193, 247, 154, 0.4) 100%);
@@ -102,6 +103,10 @@ main section {
   margin: auto;
 }
 
+.section-content.m-0 {
+  margin: 0;
+}
+
 .section-title {
   padding: 2rem;
 }
@@ -180,4 +185,11 @@ footer {
 .ratings:hover {
   color: var(--yellow-200);
   cursor: pointer;
+}
+
+ div.code-toolbar>.toolbar>.toolbar-item>button {
+  color: var(--white);
+  font-size: 1rem;
+  padding: 0 0.5em;
+  background: var(--green-300);
 }

@@ -1,0 +1,34 @@
+h1, .h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+h2, .h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.022rem;
+}
+
+h3, .h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.022rem;
+}
+
+h4, .h4 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.022rem;
+}
+
+h5, .h5 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.022rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
