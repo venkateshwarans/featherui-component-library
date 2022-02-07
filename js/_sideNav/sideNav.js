@@ -30,6 +30,9 @@ sideNavTemplate.innerHTML = ` <aside class="feather">
     <li class="side-nav-item mb-8 text-xl font-semibold">
       <a href="/components/lists/lists.html">Lists</a>
     </li>
+    <li class="side-nav-item mb-8 text-xl font-semibold">
+      <a href="/components/navigation/navigation.html">Navigation</a>
+    </li>
   </ul>
 </nav>
 </aside>`;
