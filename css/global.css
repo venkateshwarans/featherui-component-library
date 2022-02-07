@@ -43,7 +43,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #212529;
-  --gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --gradient: linear-gradient(180deg, rgba(43, 32, 32, 0.15), rgba(255, 255, 255, 0));
   --body-font-family: var(--font-sans-serif);
   --body-font-size: 1rem;
   --body-font-weight: 400;
@@ -70,6 +70,42 @@ body {
   font-family: 'Inter', sans-serif;
   max-width: 1248px;
   margin: 0 auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.aspect-auto	{
+  aspect-ratio: auto;
+}
+
+.aspect-square	{
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-video	{
+  aspect-ratio: 16 / 9;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-fill {
+  object-fit: fill;
+}
+
+.object-none {
+  object-fit: none;
+}
+
+.object-scale-down {
+  object-fit: scale-down;
 }
 
 /* Typography */
@@ -201,11 +237,7 @@ a {
   position: absolute;
 }
 
-/* Widths and heights*/
 
-.w-full {
-  width: 100%;
-}
 
 /* Text alignment  */
 
@@ -217,18 +249,47 @@ a {
   text-decoration: none;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
+.strike-out {
+  text-decoration: line-through;
+}
+
 /* Colors */
 
 .text-white {
   color: var(--white);
 }
 
-
-/* Box */
-.square {
-  border-radius: 0%;
+.text-primary {
+  color: var(--primary);
 }
 
+.text-gray-600 {
+  color: var(--gray-600);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-danger {
+  color: var(--danger);
+}
+
+.text-success {
+  color: var(--success);
+}
+
+.text-info {
+  color: var(--orange);
+}
+
+.text-warning {
+  color: var(--yellow-200);
+}
 
 /* Backgrounds */
 
@@ -254,4 +315,100 @@ a {
 
 .bg-gray {
   background-color: var(--gray-600);
+}
+
+.bg-festive {
+  background-color: var(--red);
+}
+/* Transform  */
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.rotate-1 {
+  transform: rotate(1deg);
+}
+
+.rotate-2 {
+  transform: rotate(2deg);
+}
+
+.rotate-3 {
+  transform: rotate(3deg);
+}
+
+.rotate-6 {
+  transform: rotate(6deg);
+}
+
+.rotate-12 {
+  transform: rotate(12deg);
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.-rotate-20 {
+  transform: rotate(-20deg);
+}
+
+
+/* Cursor */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+
+/* Top / Right / Bottom / Left */
+
+.right-0 {
+  right: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.top-4 {
+  top: 1rem
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+
+.right-4 {
+  right: 1rem
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+
+/* Shadow */
+
+.text-shadow {
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 20px;
 }

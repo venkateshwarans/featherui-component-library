@@ -4,16 +4,25 @@
 @import 'margins.css';
 @import 'grids.css';
 @import 'flex.css';
+@import 'width-height.css';
+@import 'border.css';
+@import 'overflow.css';
 @import '/components/alerts/alerts.css';
 @import '/components/buttons/buttons.css';
 @import '/components/avatars/avatars.css';
 @import '/components/badges/badges.css';
+@import '/components/cards/cards.css';
+@import '/components/images/images.css';
+@import '/components/forms/forms.css';
 
 body {
+  background: linear-gradient(170deg, rgb(193, 247, 154, 0.4) 0%, rgb(223, 248, 235) 40%, rgb(193, 247, 154, 0.4) 100%);
   background-image: url(../assets/images/background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  /* background-color: rgb(9 196 61 / 15%); */
+  /* background-blend-mode: overlay; */
 }
 
 .logo {
@@ -52,7 +61,7 @@ nav ul li a:hover {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 20rem 1fr;
+  grid-template-columns: 20rem 82rem;
   grid-template-rows: auto 20rem 1fr 1fr;
   grid-template-areas:
     "title title"
@@ -80,6 +89,21 @@ side-nav-component {
 
 main {
   grid-area: main;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.section-content {
+  margin: auto;
+}
+
+.section-title {
+  padding: 2rem;
 }
 
 h1.landing-title {
@@ -93,11 +117,13 @@ h1.landing-title {
 
 
 .feather {
-  background: rgb(9 196 61 / 20%);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(45px);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: none;
   border-radius: 1rem;
-  box-shadow: 0px 3px 12px rgb(197 249 219 / 25%);
+  margin-bottom: 2rem;
+  box-shadow: 0px 3px 12px rgb(0 0 0 / 3%);
 }
 
 
@@ -121,16 +147,21 @@ h1.landing-title {
   border-radius: 4px;
 }
 
-.content-container {
-  padding: 4rem;
-}
-
 .embed-container iframe {
   aspect-ratio: 2/1;
   border: none;
   width: 90%;
   margin: 1rem 0 2rem 0;
   text-align: center;
+}
+
+.snippet-wrapper {
+  max-width: 100%;
+  margin: 2rem 0;
+}
+
+.snippet-wrapper pre.language-html {
+  padding: 2rem;
 }
 
 footer {
@@ -140,4 +171,13 @@ footer {
   /* background: linear-gradient(
       170deg
       , rgb(193, 247, 154, 0.4) 0%, rgb(223, 248, 235) 40%, rgb(193, 247, 154, 0.4) 100%); */
+}
+
+.ratings {
+  color: var(--yellow);
+}
+
+.ratings:hover {
+  color: var(--yellow-200);
+  cursor: pointer;
 }
