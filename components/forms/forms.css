@@ -50,6 +50,11 @@ input:focus, textarea:focus {
   align-items: center;
 }
 
+.input-group-prepend span.rounded {
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
 .input-group .input-group-prepend input {
   border: 1px solid rgba(255,255,255,0.6);
 }

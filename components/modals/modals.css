@@ -1,0 +1,45 @@
+.modal {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2000;
+  position: fixed;
+  background-color: rgba(223, 248, 235, 0.7);
+  padding-top: 4rem;
+  display: none;
+}
+
+.modal.show-modal {
+  display: block;
+}
+
+.modal-dialog {
+  width: 95vw;
+  height: 50vh;
+  max-height: 75vh;
+  max-width: 50rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  background-color: rgb(255 255 255 / 80%);
+  backdrop-filter: blur(0.5rem);
+}
+
+.modal-header {
+  padding: 3rem 3rem 1rem;
+}
+
+.modal-body {
+  padding: 1rem 3rem 1rem;
+  flex: 1;
+  text-align: left;
+  overflow: auto;
+}
+
+.modal-footer {
+  padding: 1rem 3rem 3rem;
+}
+
+.modal-header .close {
+  cursor: pointer;
+}

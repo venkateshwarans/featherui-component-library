@@ -15,6 +15,9 @@
 @import '/components/images/images.css';
 @import '/components/forms/forms.css';
 @import '/components/typography/typography.css';
+@import '/components/modals/modals.css';
+@import '/components/navigation/navigation.css';
+
 
 body {
   background: linear-gradient(170deg, rgb(193, 247, 154, 0.4) 0%, rgb(223, 248, 235) 40%, rgb(193, 247, 154, 0.4) 100%);

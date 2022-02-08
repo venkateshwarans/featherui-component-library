@@ -804,6 +804,10 @@
   margin-bottom: 24rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .ml-0 {
   margin-left: 0px;
 }
