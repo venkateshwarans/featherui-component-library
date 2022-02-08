@@ -18,11 +18,11 @@
   width: 95vw;
   height: 50vh;
   max-height: 75vh;
-  max-width: 600px;
+  max-width: 50rem;
   border-radius: 1rem;
   margin: 0 auto;
   background-color: rgb(255 255 255 / 80%);
-  backdrop-filter: blur(4.5px);
+  backdrop-filter: blur(0.5rem);
 }
 
 .modal-header {
