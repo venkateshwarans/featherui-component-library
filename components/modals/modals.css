@@ -8,12 +8,10 @@
   background-color: rgba(223, 248, 235, 0.7);
   padding-top: 4rem;
   display: none;
-  opacity: 0;
 }
 
 .modal.show-modal {
   display: block;
-  opacity: 1;
 }
 
 .modal-dialog {
