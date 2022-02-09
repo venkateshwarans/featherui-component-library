@@ -1,0 +1,55 @@
+.rating {
+display: flex;
+flex-direction: row-reverse
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label:before {
+  font-size: 7rem;
+  display: inline-block;
+  content: "\2605";
+}
+
+.rating > .half:before {
+  content: "\2605";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: var(--yellow-200);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+  color: var(--yellow);
+}
+
+.rating > input ~ label.half:before {
+  width: 3.5rem;
+  overflow: hidden;
+}
+
+.rating > input:checked ~ label.half:hover {
+  color: var(--yellow);
+}
+
+.rating > input:checked ~ label.half {
+  color: var(--yellow-200);
+}
+
+.rating > input:checked ~ label.half:before {
+  width: calc(3.5rem + 0.25rem);
+  overflow: hidden;
+}
+
