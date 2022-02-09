@@ -42,6 +42,9 @@ sideNavTemplate.innerHTML = ` <aside class="feather">
     <li class="side-nav-item mb-8 text-xl font-semibold">
       <a href="/components/grids/grids.html">Grids</a>
     </li>
+    <li class="side-nav-item mb-8 text-xl font-semibold">
+      <a href="/components/toast/toast.html">Toast</a>
+    </li>
   </ul>
 </nav>
 </aside>`;

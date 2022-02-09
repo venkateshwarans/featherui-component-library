@@ -19,6 +19,7 @@
 @import '/components/navigation/navigation.css';
 @import '/components/rating/rating.css';
 @import '/components/grids/grids.css';
+@import '/components/toast/toast.css';
 
 body {
   background: linear-gradient(170deg, rgb(193, 247, 154, 0.4) 0%, rgb(223, 248, 235) 40%, rgb(193, 247, 154, 0.4) 100%);
@@ -196,4 +197,8 @@ footer {
   font-size: 1rem;
   padding: 0 0.5em;
   background: var(--green-300);
+}
+
+span.close:hover {
+  cursor: pointer;
 }
