@@ -1,9 +1,9 @@
-function modalToggle(id){
+const modalToggle = (id) => {
   const modal = document.getElementById(id);
   modal.classList.toggle('show-modal');
 }
 
-function toastToggle(id) {
+const toastToggle = (id) => {
   const toast =  document.querySelector(`#${id}`);
   toast.classList.toggle('show-toast');
 
