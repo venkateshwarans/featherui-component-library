@@ -5,6 +5,10 @@
   box-shadow: var(--shadow);
 }
 
+.badge-relative {
+  position: relative;
+}
+
 .badge.badge-left-top {
   top: 0;
   left: 0;
