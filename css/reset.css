@@ -15,3 +15,8 @@ img, video, iframe {
   font-weight: 500;
   line-height: 1.2;
 }
+
+fieldset {
+  border: none;
+}
+

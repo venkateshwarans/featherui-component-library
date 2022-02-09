@@ -1,0 +1,7 @@
+.grid .card {
+  height: 10rem;
+  background: rgb(69 193 78 / 60%);
+  max-width: none;
+  margin-bottom: 0;
+}
+
