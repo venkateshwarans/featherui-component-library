@@ -7,7 +7,7 @@ TopSideNavTemplate.innerHTML = ` <aside class="feather">
   </div>
   <ul class="side-nav-items">
     <li class="side-nav-item mb-8 text-xl font-semibold">
-      <a href="/">Usage</a>
+      <a href="/pages/usage.html">Usage</a>
     </li>
     <li class="side-nav-item mb-8 text-xl font-semibold">
       <a href="/">Colors</a>
