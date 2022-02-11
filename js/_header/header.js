@@ -9,11 +9,11 @@ headerTemplate.innerHTML = `
   </div>
   <nav class="flex flex-items-center">
     <ul class="inline-flex">
-      <li class="text-xl font-black"><a class="text-decoration-none" href="/index.html">Home</a>
+      <li class="text-xl font-black"><a class="text-decoration-none" href="/index.html"><i class="fas fa-home mr-2"></i> Home</a>
       </li>
-      <li class="text-xl font-black"><a class="text-decoration-none" href="/components/alerts/alerts.html">Documentation</a>
+      <li class="text-xl font-black"><a class="text-decoration-none" href="/pages/usage.html"><i class="fas fa-book mr-2"></i> Documentation</a>
       </li>
-      <li class="text-xl font-black"><a class="text-decoration-none" href="https://github.com/venkateshwarans/featherui-component-library">Github</a>
+      <li class="text-xl font-black"><a class="text-decoration-none" href="https://github.com/venkateshwarans/featherui-component-library"><i class="fab fa-github mr-2"></i> Github</a>
       </li>
     </ul>
   </nav>
