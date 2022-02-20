@@ -1,33 +1,8 @@
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
-  --red: #eb4b4d;
-  --blue: #4bb1eb;
-  --violet: #766fc0;
-  --purple: #c2679e;
-  --yellow: #eccf67;
-  --yellow-200: #ff9800;
-  --dark-blue: #0d6efd;
-  --light-blue: #25A0F5;
-  --indigo: #6610f2;
-  --pink: #d63384;
-  --orange: #d9b945;
-  --teal: rgb(32, 201, 151);
-  --green-100: rgb(223, 248, 235);
-  --green-200: rgb(193, 247, 154);
-  --green-300: rgb(69, 193, 78);
-  --green-400: rgb(25, 159, 132);
-  --cyan-100: lightcyan;
-  --cyan-200: #0dcaf0;
   --white: #fff;
-  --navy-blue-100: #0d4e6e;
-  --navy-blue-200: #00324B;
-  --gray-v2-100: #f7f7f7;
-  --gray-v2-200: #6c757d;
-  --dark: #2b2c38;
-  --light: #e8fbf0;
-  --dark-gray-1: #343a40;
-  --dark-gray-2: #002C43;
+  --dark: #212529;
   --gray-100: #f8f9fa;
   --gray-200: #e9ecef;
   --gray-300: #dee2e6;
@@ -43,17 +18,31 @@
   --info: #0dcaf0;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #212529;
+  --red: #eb4b4d;
+  --blue: #4bb1eb;
+  --green-100: #dff8eb;
+  --green-200: #c1f79a;
+  --green-300: #45c14e;
+  --green-400: #199f84;
+  --teal: rgb(32, 201, 151);
+  --yellow: #eccf67;
+  --yellow-200: #ff9800;
+  --violet: #766fc0;
+  --purple: #c2679e;
+  --dark-blue: #0d6efd;
+  --light-blue: #25A0F5;
+  --indigo: #6610f2;
+  --pink: #d63384;
+  --orange: #d9b945;
+  --cyan-100: lightcyan;
+  --cyan-200: #0dcaf0;
+  --navy-blue-100: #0d4e6e;
+  --navy-blue-200: #00324B;
   --gradient: linear-gradient(180deg, rgba(43, 32, 32, 0.15), rgba(255, 255, 255, 0));
-  --body-font-family: var(--font-sans-serif);
   --body-font-size: 1rem;
   --body-font-weight: 400;
   --body-line-height: 1.5;
-  --body-color: #212529;
-  --body-color-v2: #fcfcfc;
-  --body-bg: #fff;
-  --shadow-xs: 0px 1px 4px rgba(0, 0, 0, 0.05);
+  --shadow-xs: 0px 1px 4px rgba(3, 2, 2, 0.05);
   --shadow-sm: 0px 2px 8px rgba(0, 0, 0, 0.05);
   --shadow: 0px 3px 12px rgba(0, 0, 0, 0.05);
   --shadow-lg: 0px 4px 16px rgba(0, 0, 0, 0.07);
@@ -279,7 +268,7 @@ a {
 }
 
 .text-primary {
-  color: var(--primary);
+  color: var(--indigo);
 }
 
 .text-gray-600 {
@@ -377,6 +366,13 @@ a {
   transform: rotate(-20deg);
 }
 
+.-rotate-10 {
+  transform: rotate(-10deg);
+}
+
+.transform-origin-bottom {
+  transform-origin: bottom;
+}
 
 /* Cursor */
 
@@ -384,6 +380,11 @@ a {
   cursor: pointer;
 }
 
+/* Z-index */
+
+.z-index-max {
+  z-index: 9999;
+}
 
 
 /* Top / Right / Bottom / Left */
